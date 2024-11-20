@@ -10,6 +10,9 @@ import Video from "../video/video.mp4";
 import BestSellers from '../component/BestSellers';
 import '../App.css'
 import GiftHampers from '../component/GiftHampers';
+import Footer from "../component/Footer";
+import Contact from "../component/Contact";
+
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: '#fff',
     ...theme.typography.body2,
@@ -89,13 +92,31 @@ const Item = styled(Paper)(({ theme }) => ({
         <h4 style={{fontFamily:"Crelist",fontSize:"40px",fontWeight:"200"}}>Gifts Hambers</h4>
         <GiftHampers/>    
     </div>
-{/*-------------------------------------------------------viewport 04------------------------------------------------------------- */}
-<div style={{minHeight:"100vh",display:"flex",flexDirection:"column",justifyContent:'center',alignItems:"center",marginLeft:"50px",marginRight:"50px"}} >
-
+    {/*-------------------------------------------------------viewport 04------------------------------------------------------------- */}
+<div style={{minHeight:"100vh",display:"flex",flexDirection:"column",justifyContent:'center',alignItems:"center",marginLeft:"50px",marginRight:"50px",backgroundColor:"#f5f5f7"}} >
         <h4 style={{fontFamily:"Crelist",fontSize:"40px",fontWeight:"200"}}>Contact Us</h4>
-         
+        <Contact/>
     </div>
 
+{/*-------------------------------------------------------Footer------------------------------------------------------------- */}
+    <Box
+    sx={{
+        backgroundColor: '#294836',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: { xs: 4, sm: 8 },
+        py: { xs: 3, sm: 5 },
+        textAlign: { sm: 'center', md: 'left' },
+        justifyContent: 'space-between',
+        width: '100%',
+        marginLeft: '0',
+        marginRight: '0',
+        color:"#ffffff"
+    }}
+    >
+        <Footer/>
+    </Box>
 
     </>
  
