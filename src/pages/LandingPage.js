@@ -60,7 +60,7 @@ const Item = styled(Paper)(({ theme }) => ({
         <NavBar/>
     <div >
     <Stack spacing={2}>
-        <Item style={{backgroundColor:'#513B1C',color:"white",height:"30px",paddingTop:"12px"}}>Special offers happening now !         </Item>
+        <Item style={{backgroundColor:'#204436',color:"white",height:"30px",paddingTop:"12px"}}>Special offers happening now !         </Item>
 
         <Item style={item2}>
             <video
@@ -89,7 +89,7 @@ const Item = styled(Paper)(({ theme }) => ({
     </div>
 {/*-------------------------------------------------------viewport 03------------------------------------------------------------- */}
     <div style={{minHeight:"100vh",display:"flex",flexDirection:"column",justifyContent:'center',alignItems:"center",marginLeft:"50px",marginRight:"50px"}} >
-        <h4 style={{fontFamily:"Crelist",fontSize:"40px",fontWeight:"200"}}>Gifts Hambers</h4>
+        <h4 style={{fontFamily:"Crelist",fontSize:"40px",fontWeight:"200"}}>Gifts Hampers</h4>
         <GiftHampers/>    
     </div>
     {/*-------------------------------------------------------viewport 04------------------------------------------------------------- */}

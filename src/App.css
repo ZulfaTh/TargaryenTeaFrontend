@@ -44,3 +44,21 @@
   font-family: Poppin;
   src: url('/public/fonts/Poppins.ttf');
 }
+@font-face {
+  font-family: AGaramondPro;
+  src: url('/public/fonts/AGaramondPro.otf');
+}
+@font-face {
+  font-family: Futura;
+  src: url('/public/fonts/Futura.ttf');
+}
+@font-face {
+  font-family: FuturaCyrillicLight;
+  src: url('/public/fonts/FuturaCyrillicLight.ttf');
+}
+@font-face {
+  font-family: FuturaCyrillicBold;
+  src: url('/public/fonts/FuturaCyrillicBold.ttf');
+}
+
+
