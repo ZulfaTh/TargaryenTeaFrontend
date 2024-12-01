@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../component/NavBar'
-import Tea1 from "../video/Tea1.mp4";
+// import Tea1 from "../video/Tea1.mp4";
 import Footer from "../component/Footer";
 import Logo from  "../images/logo.png";
 import { styled } from '@mui/material/styles';
@@ -77,7 +77,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     fontFamily:"FuturaCyrillicBold",
                     letterSpacing:"2px",
                     marginTop:"20px"
-              }}>ALL COLLECTION</Typography>
+        }}>ALL COLLECTION</Typography>
     </Stack>
     </div>
     </div>
@@ -86,7 +86,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 <TeaList/>
 
-{/*-------------------------------------------------------Footer------------------------------------------------------------- */}
+{/*----------------------------------------------------------Footer------------------------------------------------------------- */}
 <Box
     sx={{
         backgroundColor: '#294836',
